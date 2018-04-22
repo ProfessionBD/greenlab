@@ -1,0 +1,108 @@
+
+.navbar-dark .navbar-toggler{ cursor: pointer; }
+
+
+
+/* Start Section One
+ * Extra large devices (large desktops, 1200px and up)
+-------------------------------------------------------- */
+@media (min-width: 1200px){
+
+}/* Section One     end__of___*/
+
+
+
+/* Start Section Two
+ * Large devices (desktops, More than 1200px)
+-------------------------------------------------------- */
+@media (min-width: 1199px){
+	.container{ max-width: 1200px !important; }
+	.logo_link{ padding-top: 10px; display: table-cell; }
+	.lg_none{ display: none; }
+}/* Section Two     end__of___*/
+
+
+
+/* Start Section Two
+ * Large devices (desktops, less than 1200px)
+-------------------------------------------------------- */
+@media (max-width: 1199px){
+
+}/* Section Two     end__of___*/
+
+
+
+/* Start Section Three
+ * Large devices (desktops, 992px and up)
+-------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199px){
+
+}/* Section Three     end__of___*/
+
+
+
+/* Start Section Four
+ * Medium devices (tablets, less than 992px)
+-------------------------------------------------------- */
+.navbar-brand{ display: none; }
+@media (max-width: 991px){
+	.navbar-brand{ display: block; }
+	.md_none{ display: none; }
+	.slider_inner{ padding-top: 50px !important; }
+	.slider_txt_bx{ max-width: 100% }
+	.slider_bottom_wrap{ margin-top: 0px; padding-top: 30px;}
+	.slider_nav{ padding: 0 }
+	.featured_prod_wrap{ text-align: center; }
+	.footer_social.tRight{ text-align: center; }
+	.footer_social_wrap{ text-align: center; }
+	.footer_social ul{ padding: 12px 0 0; }
+
+
+}/* Section Four     end__of___*/
+
+
+/* Start Section Five
+ * Medium devices (tablets, 768px and up)
+-------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px){
+	.md_none{ display: none; }
+
+}/* Section Five     end__of___*/
+
+
+
+/* Start Section Six
+ * Small devices (landscape phones, less than 768px)
+-------------------------------------------------------- */
+@media (max-width: 767px){
+	.slider_inner{ padding-top: 30px !important; }
+	.ftrd_icon_flex,
+	.slider_txt_bx{ padding: 0 15px; }
+	.slider_inner h2{ font-size: 24px !important; font-weight: 100 !important }
+
+	.flex-control-nav.flex-control-paging{ width: 100% !important; max-width: 100% !important }
+	.wid_box{ padding-bottom: 50px; }
+	.fnx-site .logo_link img{ max-width: 160px !important; padding: 10px 0 0 15px; }
+
+}/* Section Six     end__of___*/
+
+
+
+/* Start Section Seven
+ * Small devices (landscape phones, 576px and up)
+-------------------------------------------------------- */
+@media (min-width: 576px) and (max-width: 767px){
+
+}/* Section Seven     end__of___*/
+
+
+
+/* Start Section Eight
+ * Extra small devices (portrait phones, less than 576px)
+-------------------------------------------------------- */
+@media (max-width: 575px){
+	.bttn_slide{ padding: 0px 12px !important; font-size: 12px !important }
+	.fnx-site ol.flex-control-nav{ margin: 0 }
+
+
+}/* Section Eight     end__of___*/

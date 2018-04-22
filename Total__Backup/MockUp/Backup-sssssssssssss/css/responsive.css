@@ -1,0 +1,84 @@
+
+.navbar-dark .navbar-toggler{ cursor: pointer; }
+
+
+
+/* Start Section One
+ * Extra large devices (large desktops, 1200px and up)
+-------------------------------------------------------- */
+@media (min-width: 1200px) {
+
+}/* Section One     end__of___*/
+
+
+
+/* Start Section Two
+ * Large devices (desktops, More than 1200px)
+-------------------------------------------------------- */
+@media (min-width: 1199px) {
+	.container{ max-width: 1200px !important; }
+}/* Section Two     end__of___*/
+
+
+
+/* Start Section Two
+ * Large devices (desktops, less than 1200px)
+-------------------------------------------------------- */
+@media (max-width: 1199px) {
+
+}/* Section Two     end__of___*/
+
+
+
+/* Start Section Three
+ * Large devices (desktops, 992px and up)
+-------------------------------------------------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}/* Section Three     end__of___*/
+
+
+
+/* Start Section Four
+ * Medium devices (tablets, less than 992px)
+-------------------------------------------------------- */
+.navbar-brand{ display: none; }
+@media (max-width: 991px) {
+.navbar-brand{ display: block; }
+
+}/* Section Four     end__of___*/
+
+
+/* Start Section Five
+ * Medium devices (tablets, 768px and up)
+-------------------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}/* Section Five     end__of___*/
+
+
+
+/* Start Section Six
+ * Small devices (landscape phones, less than 768px)
+-------------------------------------------------------- */
+@media (max-width: 767px) {
+
+}/* Section Six     end__of___*/
+
+
+
+/* Start Section Seven
+ * Small devices (landscape phones, 576px and up)
+-------------------------------------------------------- */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}/* Section Seven     end__of___*/
+
+
+
+/* Start Section Eight
+ * Extra small devices (portrait phones, less than 576px)
+-------------------------------------------------------- */
+@media (max-width: 575px) {
+
+}/* Section Eight     end__of___*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>FlexSlider</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all"/>
+
+<style type="text/css">
+  .flexslider{ border: 0; }
+</style>
+</head>
+<body>
+
+
+<div class="flexslider" style="overflow: hidden;">
+<ul class="slides">
+  <li><img src="images/kitchen_1.jpg" /></li> 
+  <li><img src="images/kitchen_2.jpg" /></li> 
+  <li><img src="images/kitchen_3.jpg" /></li> 
+  <li><img src="images/kitchen_4.jpg" /></li>
+</ul>
+</div>
+      
+
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/flexslider.js"></script>
+
+  <script type="text/javascript">
+    // For FlexSlider
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+      });
+    });
+  </script>
+
+
+</body>
+</html>

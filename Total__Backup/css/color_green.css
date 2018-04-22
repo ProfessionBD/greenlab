@@ -1,0 +1,206 @@
+
+
+
+
+.why_prints_bx ul li .icon_left,
+.why_prints_bx ul li:hover .icon_left,
+.why_prints_bx ul li a:before,
+.why_prints_bx ul li:hover a:before,
+.how_we_make_wrap .hwe_box h3 a:before,
+.how_we_make_wrap .hwe_box:hover h3 a:before,
+.fnx-site .color_green .sample_box a,
+.fnx-site .color_green .sample_box a:hover,
+.fnx-site .color_green .all_reviews,
+.fnx-site .color_green .all_reviews:hover,
+.fnx-site .color_green .slider_wrap .bttn_slide,
+.fnx-site .color_green .slider_wrap .bttn_slide:hover,
+.fnx-site .color_green .slider_nav ul li a:hover,
+.fnx-site .color_green .slider_nav ul li a:after,
+.fnx-site .color_green .slider_nav ul li a:hover:after,
+.fnx-site .color_green a,
+.fnx-site .color_green a:hover,
+.fnx-site .color_green *{
+	-webkit-transition: all 0.3s ease-in-out !important;
+		 -moz-transition: all 0.3s ease-in-out !important;
+			 -o-transition: all 0.3s ease-in-out !important;
+			-ms-transition: all 0.3s ease-in-out !important;
+					transition: all 0.3s ease-in-out !important;
+			}
+
+
+
+
+
+
+
+
+
+/* -----------------=
+ Main Menu Default Link Color
+ ====================================== */
+
+.fnx-site .color_green .nav-main__link
+{ color: #6d676b; }
+
+
+
+
+
+
+/* -----------------=
+ Main Menu HOVER Link Color
+ ====================================== */
+
+
+.fnx-site .color_green .slider_nav ul li a:hover,
+.fnx-site .color_green .nav-main__link:hover
+{ color: #2e2622; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------=
+ Link Default Color
+ ====================================== */
+.fnx-site .color_green .footer_wrap a:hover,
+.fnx-site .color_green .widgets_wrap a:hover
+{ color: #b3b3b3; }
+
+
+
+
+
+
+
+
+/* -----------------=
+ Link Default Color
+ ====================================== */
+
+{ color: #555555; }
+
+
+
+
+
+
+
+
+/* ---------------=
+ Link HOVER Color
+ ====================================== */
+
+.why_prints_bx ul li a:hover,
+.slider_wrap .slider_inner h2 a:hover,
+.slider_nav ul li a:hover,
+.ftrd_all a,
+.crsl_box h3 a:hover
+{ color: #737373 !important; }
+
+
+
+
+
+
+
+
+
+/* ----------------------=
+ Background Default Color
+ ====================================== */
+
+.fnx-site .color_green .sample_box a:hover,
+.fnx-site .color_green .all_reviews:hover,
+.fnx-site .color_green .slider_wrap .bttn_slide:hover,
+.fnx-site .color_green .slider_nav ul li a:after,
+.fnx-site .color_green .btn.-standalone-white
+{ background: #555555; color: #fff; }
+
+
+
+
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+
+.fnx-site .color_green .new_bx,
+.fnx-site .color_green .btn.-standalone-white:hover
+{ background: #008329; color: #fff; }
+
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+.fnx-site .color_green .btn.-standalone-white{ border-color: #555555; display: block !important;}
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+.fnx-site .color_green .nav-main__link.is-parent.is-selected:after,
+.fnx-site .color_green .animated-underline.is-selected:after,
+.fnx-site .color_green .animated-underline.is-selected:hover:after,
+.fnx-site .color_green .animated-underline:hover:after,
+.fnx-site .color_green .animated-underline:focus:after
+{ background: #555555 !important; border-color: #555555 !important; }
+
+
+
+
+
+
+
+
+
+/* --------------------=
+ Extra
+ ====================================== */
+.fnx-site .color_green .btn.-standalone-white.js-nav-main-close{ background-color: transparent !important; }
+.ftrd_all a:hover{ color: #4caf50 !important; border: 2px #4caf50 solid; }
+
+.crsl_box li:hover h3 a{ color: #707276; }
+.crsl_box li:hover h3 a:hover{ color: #8c8c8c !important; }
+.cPrice{ border: 1px #59ba47 solid; }
+
+.why_prints_bx ul li a{ color: #404144 !important }
+
+
+.carousel-control-next,
+.carousel-control-prev{ background: #59ba47 !important; }
+.carousel-indicators li{ background: transparent !important; border: 1px #59ba47 solid !important;}
+.carousel-indicators li.active{ background: #59ba47 !important;}
+
+
+
+
+.hwe_icon{ background: transparent !important;  }
+.why_prints_bx ul li:hover .icon_left,
+.hwe_box:hover .hwe_icon{ background: #59ba47 !important; }
+.hwe_box:hover .hwe_icon{ border-color: #59ba47 !important; }
+.hwe_box:hover .hwe_icon .fa{ color: #fff}
+.how_we_make_wrap .hwe_box h3 a{ color: #737477; }
+.how_we_make_wrap .hwe_box h3 a:hover{ color: #59ba47; }
+
+
+.why_prints_bx ul li:hover a:before,
+.how_we_make_wrap .hwe_box h3 a:before{ background: #59ba47 }
+.why_prints_bx ul li:hover .icon_left{ border-color: #59ba47; }
+.why_prints_bx ul li:hover .icon_left .fa{ color: #fff; }

@@ -1,0 +1,124 @@
+a, a:hover, *{
+	-webkit-transition: all 0.3s ease-in-out !important;
+	-moz-transition: all 0.3s ease-in-out !important;
+	-o-transition: all 0.3s ease-in-out !important;
+	-ms-transition: all 0.3s ease-in-out !important;
+	transition: all 0.3s ease-in-out !important;
+}
+
+
+
+
+
+
+
+
+/* -----------------=
+ Main Menu Default Link Color
+ ====================================== */
+
+.fnx-site .color_green .nav-main__link
+{ color: #6d676b; }
+
+
+
+
+
+
+/* -----------------=
+ Main Menu HOVER Link Color
+ ====================================== */
+
+.fnx-site .color_green .nav-main__link:hover
+{ color: #2e2622; }
+
+
+
+
+
+
+
+
+
+/* -----------------=
+ Link Default Color
+ ====================================== */
+
+{ color: #37a000; }
+
+
+
+
+
+
+
+
+/* ---------------=
+ Link HOVER Color
+ ====================================== */
+
+{ color: #008329; }
+
+
+
+
+
+
+
+
+/* ----------------------=
+ Background Default Color
+ ====================================== */
+
+.fnx-site .color_green .btn.-standalone-white
+{ background: #37a000; color: #fff; }
+
+
+
+
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+
+.fnx-site .color_green .new_bx,
+.fnx-site .color_green .btn.-standalone-white:hover
+{ background: #008329; color: #fff; }
+
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+.fnx-site .color_green .btn.-standalone-white{ border-color: #37a000; }
+
+
+
+
+/* --------------------=
+ Background HOVER Color
+ ====================================== */
+.fnx-site .color_green .nav-main__link.is-parent.is-selected:after,
+.fnx-site .color_green .animated-underline.is-selected:after,
+.fnx-site .color_green .animated-underline.is-selected:hover:after,
+.fnx-site .color_green .animated-underline:hover:after,
+.fnx-site .color_green .animated-underline:focus:after
+{ background: #37a000 !important; border-color: #37a000 !important; }
+
+
+
+
+
+
+
+
+
+/* --------------------=
+ Extraaaaaaaaaa
+ ====================================== */
+.fnx-site .color_green .btn.-standalone-white.js-nav-main-close{ background-color: transparent !important; }

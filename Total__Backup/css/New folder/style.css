@@ -1,0 +1,473 @@
+*{ padding:0; margin:0; outline:none; list-style:none; border: 0 none; text-decoration:none; }
+html{ -ms-touch-action: manipulation; touch-action: manipulation; margin:0; padding: 0; }
+body{ background: #fff; color:#4f5a6d; font-size:0.875rem; line-height: 2; text-align:left; margin:0; padding: 0; }
+
+a:link{ color:#4fe100; text-decoration:none; }
+a:visited{ color:#4fe100; text-decoration:none }
+a:hover{ color:#37a000; text-decoration:none }
+a img{ border-width:0 }
+img{ max-width: 100%; height: auto; }
+
+h1,h2,h3,h4,h5,h6{ width: 100%; height: auto; margin: 0; padding: 0 0 30px; font-weight:normal; }
+h1::after{display:block;clear:both;content:""}
+h2::after{display:block;clear:both;content:""}
+h3::after{display:block;clear:both;content:""}
+h4::after{display:block;clear:both;content:""}
+h5::after{display:block;clear:both;content:""}
+h6::after{display:block;clear:both;content:""}
+
+.aLeft{ float: left;}
+.aRight{ float: right;}
+.aCenter{ clear:both; margin-left:auto;  margin-right:auto;}
+.clear{ clear: both;}
+.clear::after{display:block;clear:both;content:""}
+
+.tLeft{ text-align: left;}
+.tRight{ text-align: right;}
+.tCenter{ text-align: center !important;}
+.hide{ display: none; }
+
+::-moz-selection{ background: #37a000; color: #fff; text-shadow: none; }
+::selection{ background: #37a000; color: #fff; text-shadow: none; }
+
+/*::-webkit-scrollbar{width: 8px; height:12px; }
+::-webkit-scrollbar-track{background: #FFFFFF;-webkit-box-shadow: inset 1px 1px 2px #FFFFFF;border: 1px solid #D8D8D8;}
+::-webkit-scrollbar-thumb{background: #37a000;-webkit-box-shadow: inset 1px 1px 2px rgba(155, 155, 155, 0.4);}
+::-webkit-scrollbar-thumb:hover{-webkit-box-shadow: inset 1px 1px 10px rgba(0,0,0,0.6);}
+::-webkit-scrollbar-thumb:active{background: #256a00;-webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);}*/
+
+
+
+
+
+
+/* -----------------------
+ * Nexa BOLD Font Style Section
+ *---------------------------------------------------------------- */
+@font-face {
+	font-family: 'Conv_Nexa Bold';
+	src: url('../libs/fonts/Nexa Bold.eot');
+	src: local('☺'), url('../libs/fonts/Nexa Bold.woff') format('woff'), url('../libs/fonts/Nexa Bold.ttf') format('truetype'), url('../libs/fonts/Nexa Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* -----------------------
+ * Nexa LIGHT Font Style Section
+ *---------------------------------------------------------------- */
+@font-face {
+	font-family: 'Conv_Nexa Light';
+	src: url('../libs/fonts/Nexa Light.eot');
+	src: local('☺'), url('../libs/fonts/Nexa Light.woff') format('woff'), url('../libs/fonts/Nexa Light.ttf') format('truetype'), url('fonts/Nexa Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+{ font-family:'Conv_Nexa Light',Sans-Serif; }
+
+
+
+.hwe_num,
+.slider_nav ul li a,
+.slider_wrap .bttn_slide,
+.fnx-site h1,
+.fnx-site h2,
+.fnx-site h3,
+.fnx-site h4,
+.fnx-site h5,
+.fnx-site h6{ font-family:"Conv_Nexa Bold", "Trebuchet MS", Trebuchet, "Liberation Sans", sans-serif !important; }
+
+
+
+
+
+.crsl_box h3,
+.how_we_make_wrap .hwe_box h3,
+.fnx-site .color_green .nav-main__link,
+.fnx-site html,
+.fnx-site html p,
+.fnx-site body p,
+.fnx-site body{ font-family:"Conv_Nexa Light", Verdana, Geneva, sans-serif !important; }
+
+
+
+
+
+
+
+
+.logo_box,
+.logo_box:hover,
+a, a:hover, *{
+	-webkit-transition: all 0.3s ease-in-out !important;
+		 -moz-transition: all 0.3s ease-in-out !important;
+			 -o-transition: all 0.3s ease-in-out !important;
+			-ms-transition: all 0.3s ease-in-out !important;
+					transition: all 0.3s ease-in-out !important;
+			}
+
+
+
+/* -----------------------
+ * Common Style Section
+ *---------------------------------------------------------------- */
+
+a{ color: #37a000; }
+
+
+
+.fnx-site .logo_link img{ max-width: 160px !important; padding: 10px 0 0 0px; }
+
+.fnx-site .nav-main__link{ color: #202022 !important; }
+
+
+/* -----------------------
+ * .slider_wrap Style Section
+ *---------------------------------------------------------------- */
+.slider_wrap{ display: block; clear: both; width: 100%; position: relative; z-index: 2 }
+.slider_wrap:before{ content: ""; position: absolute; width: 50%; height: 100%; left: 0px; top: 0; bottom: 0; z-index: -1; background: url(../images/slide_left.jpg) repeat; }
+.slider_wrap:after{ content: ""; position: absolute; width: 50%; height: 100%; right: 0px; top: 0; bottom: 0; z-index: -1; background: url(../images/slide_rightt.jpg) repeat; }
+.slider_wrap .container{ position: }
+.slider_wrap .slider_inner{ position: absolute; z-index: 9; top: 0; left: 0; width: 100%; padding: 100px 0 0 30px; }
+.slider_txt_bx{ max-width: 450px; float: left; }
+.slider_wrap .slider_inner h2{ font-size: 38px; color: #3e4a58; padding-bottom: 20px; }
+.slider_wrap .slider_inner h2 a{ color: #fff; }
+.slider_wrap .slider_inner h4{ font-size: 16px; color: #57677d; }
+.slider_wrap .slider_inner h4 span{ display: block; padding-bottom: 20px; }
+.slider_wrap .bttn_slide{ display: table-cell; padding: 7px 20px; background: #fff; color: #3e4a58; text-align: left; font-size: 16px; border-radius: 3px; -webkit-border-radius: 3px; }
+
+
+
+
+
+/* -----------------------
+ * Flex Slider Style Customization Section
+ *---------------------------------------------------------------- */
+.flexslider{ margin-bottom: 0px; border: 0 !important } 
+.custom-controls-container{ height: 0; margin: 0; padding: 0; }
+.custom-navigation > a{ width: 50px; display: none; } 
+.custom-navigation .flex-next{ text-align: right; }
+.flex-control-paging li a{ width: 11px; }
+.flex-control-paging li a.flex-active{ width: 40px; }
+.flex-direction-nav .flex-prev{ left: 30px !important;}
+.flex-direction-nav .flex-next{ right: 30px !important;}
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next{ height: 45px; opacity: 0.2 !important; }
+.flex-direction-nav .flex-prev:hover,
+.flex-direction-nav .flex-next:hover{ opacity: 1 !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * .slider_wrap Style Section
+ *---------------------------------------------------------------- */
+.slider_bottom_wrap{ display: block; clear: both; width: 100%; padding: 12px 0; background: #eff0e8; position: relative; box-shadow: 1px 3px 3px #cecfd0;}
+.slider_nav{ display: block; clear: both; width: 100%; padding: 0px 50px 0 0; }
+.slider_nav ul{ margin: 0 auto; padding: 0; display: table; }
+.slider_nav ul li{ float: left; }
+.slider_nav ul li a{ display: block; padding: 5px 12px; position: relative; font-size: 16px; color: #1e2122; }
+.slider_nav ul li a:after{ position: absolute; left: 50%; right: 50%; bottom: 0; content: ""; z-index: 3; width: 0; height: 2px; }
+.slider_nav ul li a:hover:after{ width: 100%; left: 0; right: 0; }
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * featured_prod_wrap Style Section
+ *---------------------------------------------------------------- */
+.featured_prod_wrap{ display: block; clear: both; width: 100%; padding: 47px 0 20px; }
+.featured_prod_wrap .featured_prod.sub_title{ font-size: 42px; color: #0c3861; padding-bottom: 10px; }
+.fnx-site .featured_prod_wrap .ftrd_bx{ display: inline !important; width: 25%; max-width: 25%; padding: 5% 30px; border: 1px #d8d9da solid; }
+.featured_prod_wrap .ftrd_bx h3{ font-size: 14px; padding-top: 20px; }
+
+.featured_prod_wrap .ftrd_icon{ position: relative; padding-bottom: 15px;}
+.featured_prod_wrap .ftrd_icon img{ max-width: 40px; }
+.featured_prod_wrap .ftrd_icon .fa{ font-size: 70px !important;}
+.featured_prod_wrap .ftrd_icon:after{ content: ""; position: absolute; bottom: 0; left: 50%; margin-left: -40px; width: 80px; height: 2px; background: #939598; z-index: 1;}
+
+.ftrd_price{ clear: both; display: table; margin: 0 auto; padding: 25px 0 20px; }
+
+.pPrice,
+.cPrice{ display: block; float: left; padding: 2px 40px; font-size: 20px; }
+.cPrice{ color: #59ba47; }
+.pPrice{ color: #a7a8a9; border: 1px #a7a8a9 solid; text-decoration: line-through; margin-left: 7px; }
+.featured_prod_wrap .flexslider li{ }
+
+
+#prod_carousel.carousel{ width: 100% !important; padding-bottom: 30px;}
+.carousel-inner .carousel-item{ width: 100% !important; }
+.carousel{ background: transparent !important; }
+.carousel-indicators{ margin: 0 0 0 0 !important; }
+.carousel-indicators li{ width: 12px; height: 12px; border-radius: 50%; -webkit-border-radius: 50%; }
+.carousel-indicators li.active{  }
+
+.crsl_box{ float: left; width: 100%; padding-right: 50px; }
+.crsl_box li{ background: #fff; display: inline-block; margin: 0px 0 0 -3px !important; padding: 20px 12px; border: 1px #d8d9da solid; width: 23%; }
+.crsl_box li:hover{ background: #fff; border-color: #59ba47; }
+.crsl_box h3{ font-size: 14px !important; text-transform: uppercase; padding: 15px 0px 0px;}
+.crsl_box h3 a{ display: inline-block; padding: 5px 20px; color: ##59ba47; }
+
+
+.carousel-control-next,
+.carousel-control-prev{ width: 50px; height: 50px; top: 40%; border-radius: 50%; position: 0.3 !important; }
+.carousel-control-prev{ left: 40px !important; }
+
+.ftrd_all{ display: table; padding: 20px 0 30px; }
+.ftrd_all a{ display: block; font-weight: 900; text-transform: capitalize; font-size: 18px; padding: 0 30px; border: 1px #59ba47 solid; border-radius: 3px; -webkit-border-radius: 3px; }
+
+
+.modal { z-index: 99999; padding-top: 80px; }
+.photo_bx{ overflow: hidden; border-radius: 5px; -webkit-border-radius: 5px; box-shadow: 1px 3px 6px #ddd; -webkit-box-shadow: 1px 3px 6px #ddd; }
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Company Logo Wrap Style Section
+ *---------------------------------------------------------------- */
+.how_we_make_wrap{ display: block; clear: both; width: 100%; padding: 70px 0 75px; background: #e7e7e8; }
+.how_we_make_wrap .how_we_make.sub_title{ font-size: 42px; color: #0c3861; padding-bottom: 17px; }
+.hwe_icon{ width: 200px; height: 200px; border: 1px #59ba47 solid; padding: 50px; margin: 0 auto 10px; border-radius: 50%; -webkit-border-radius: 50%; position: relative; }
+.hwe_num{ position: absolute; left: 0; margin-left: -25px; top: 50%; margin-top: -25px; background: #59ba47; content: ""; width: 50px; height: 50px; border: 3px #e7e7e8 solid; border-radius: 50%; -webkit-border-radius: 50%; z-index: 1; font-size: 22px; color: #fff; }
+
+.hwe_icon img{}
+.how_we_make_wrap .hwe_box h3{ padding: 20px 0 0; font-size: 18px; text-transform: capitalize;}
+.how_we_make_wrap .hwe_box h3 a{ position: relative; }
+.how_we_make_wrap .hwe_box h3 a:before{ position: absolute; content: ""; width: 0%; height: 2px; left: 0; bottom: 0; z-index: 9; }
+.how_we_make_wrap .hwe_box:hover h3 a:before{ width: 100% }
+
+
+
+
+
+/* -----------------------
+ * Why 99-Prints Wrap Style Section
+ *---------------------------------------------------------------- */
+.why_prints_wrap{ display: block; clear: both; width: 100%; padding: 70px 0;}
+
+.why_prints_wrap .why_prints.sub_title{ font-size: 42px; color: #0c3861; padding-bottom: 17px; }
+.why_prints_bx{ margin: 0; padding: 0; }
+.why_prints_bx ul{ margin: 0; padding: 0; }
+.why_prints_bx ul li{ float: left; width: 33%; padding: 0 0 40px; }
+.why_prints_bx ul li .icon_left{ display: table-cell; width: 62px; height: 62px; padding: 5px; border: 1px #59ba47 solid; border-radius: 50%; -webkit-border-radius: 50%; overflow: hidden; }
+.why_prints_bx ul li .icon_txt{ width: calc( 100% - 70px ); display: table-cell; padding: 0px 0 0 30px; }
+
+.why_prints_bx ul li a{ font-size: 26px; display: inline-block; line-height: 35px; position: relative; }
+.why_prints_bx ul li a:before{ position: absolute; content: ""; width: 0%; height: 2px; left: 0; bottom: 0; z-index: 9; }
+.why_prints_bx ul li:hover a:before{ width: 100% }
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Sample Pack Style Section
+ *---------------------------------------------------------------- */
+.our_clients_wrap{ display: block; clear: both; width: 100%; padding: 50px 0 70px; background: #e7e7e8; }
+.our_clients_wrap .our_clients.sub_title{ font-size: 42px; color: #0c3861; padding-bottom: 10px !important; }
+.testimonials_slide{ margin: 0; padding: 0; }
+.testimonials_slide li{ margin: 0; padding: 0; float: left; width: 32%; }
+.test_bx{ padding: 0px;}
+.test_bx .fa{ font-size: 48px !important; color: #59ba47 !important; }
+.test_bx .fa_icon_bottom img,
+.test_bx .fa_icon_top img{ max-width: 18px !important }
+.test_txt{ padding: 10px 40px 0px; position: relative;}
+.test_txt p{ margin-bottom: 7px; }
+.test_txt:after{ content: ""; position: absolute; top: 10px; right: 0; width: 3px; height: 65%; background: #8f9194; }
+.test_txt.none:after{ opacity: 0 }
+.test_icon{ clear: both; display: block; max-width: 45px; margin: 0 auto 12px; border: 1px #59ba47 solid; overflow: hidden; border-radius: 50%; -webkit-border-radius: 50%; }
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Subscribe Wrap Style Section
+ *---------------------------------------------------------------- */
+.subscribe_wrap{ display: block; clear: both; width: 100%; padding: 80px 0 50px; background: #5bbc2e; }
+.subscribe_wrap h3{ font-size: 20px; color: #fff; }
+.subscribe_wrap h3 a{ color: #37711c; }
+.subscribe_wrap h3 a:hover{ color: #111; }
+
+.subscribe_wrap form{ padding-top: 10px; }
+.subscribe_wrap input[type="email"]{ background: #fff; width: 98%; float: left; padding: 5px 7px; border: 1px #cfd3d8 dotted; border-radius: 3px; }
+.subscribe_wrap input[type="email"]:focus{ box-shadow: inset 1px 1px 3px #939ca8; }
+.email_bttn{ display: table-cell; float: left; }
+.email_bttn .fa{ float: left; line-height: 24px !important; font-size: 24px !important; margin-left: -30px; width: 25px; height: 30px; }
+.email_bttn:hover .fa{ color: #37a000 }
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Footer Social Wrap Style Section
+ *---------------------------------------------------------------- */
+.footer_social_wrap{ display: block; clear: both; width: 100%; padding: 10px 0; background: #4f5a6d; }
+.footer_social{}
+.footer_social ul{ width: 100%; margin: 0; padding: 0; }
+.footer_social ul li{ display: inline-block; }
+.footer_social ul li a{ display: block; text-align: center; width: 30px; height: 30px; border: 1px #616f85 solid; margin: 0 4px; border-radius: 3px;}
+.footer_social ul li a .fa{ line-height: 30px !important; color: #fff; font-size: 16px !important; }
+.footer_social ul li a:hover{ background: #616f85; transform: scale(1.5); }
+
+
+
+
+/* -----------------------
+ * Footer Widgets Style Section
+ *---------------------------------------------------------------- */
+.widgets_wrap{ display: block; clear: both; width: 100%; padding: 45px 0 0; background: #7d7d7d; }
+.widgets_wrap .container{ border-bottom: 1px #616161 solid; padding-bottom: 30px; color: #fff; }
+.wid_box{ padding-bottom: 30px; }
+.widgets_wrap h3{ font-size: 18px; line-height: 24px; margin: 0; padding-bottom: 12px; color: #fff; }
+
+.widgets_wrap ul{ margin: 0 !important; padding: 0 !important; }
+.widgets_wrap ul li{ display: block; }
+.widgets_wrap ul li a{ display: table-cell; padding: 3px 5px; color: #fff; line-height: 18px; }
+.widgets_wrap ul li a:hover{ color: #256a00; }
+
+
+.widgets_wrap ul.wid_left{ float: left; }
+.widgets_wrap ul.wid_right{ float: left; padding-left: 40px !important }
+
+
+
+
+
+/* -----------------------
+ * Footer Left Style Section
+ *---------------------------------------------------------------- */
+.footer_wrap{ display: block; clear: both; width: 100%; padding: 0 0 15px 0; background: #7d7d7d; }
+.footer_wrap .container{ border-top: 1px #8d8d8d solid; padding-top: 20px; }
+.footer_left{ font-size: 12px; color: #fff; }
+
+
+
+
+
+
+/* -----------------------
+ * Footer Menu Style Section
+ *---------------------------------------------------------------- */
+.footer_nav ul,
+.footer_nav{ padding: 0; margin: 0; }
+.footer_nav ul{}
+.footer_nav ul li{ float: left; }
+.footer_nav ul li a{ display: block; padding: 5px 8px; font-size: 12px; color: #fff; }
+.footer_nav ul li a:hover{ color: #256a00; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Main Menu Style Section
+ *---------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Main Menu Style Section
+ *---------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Main Menu Style Section
+ *---------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+ * Main Menu Style Section
+ *---------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

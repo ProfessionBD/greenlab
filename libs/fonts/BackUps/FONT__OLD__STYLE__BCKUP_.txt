@@ -1,0 +1,40 @@
+@font-face{ font-family:"Bryant MOO Pro Regular";
+	src:url("../libs/fonts/BryantMooWebProRegular.eot");
+	src:url("../libs/fonts/BryantMooWebProRegular.eot?#iefix") format("embedded-opentype"),url("../libs/fonts/BryantMooWebProRegular.woff2") format("woff2"),url("../libs/fonts/BryantMooWebProRegular.woff") format("woff");
+	font-weight:normal;font-style:normal;
+}
+
+
+@font-face{ font-family:"Bryant MOO Pro Medium";
+src:url("../libs/fonts/BryantMooWebProMedium.eot");
+src:url("../libs/fonts/BryantMooWebProMedium.eot?#iefix") format("embedded-opentype"),url("../libs/fonts/BryantMooWebProMedium.woff2") format("woff2"),url("../libs/fonts/BryantMooWebProMedium.woff") format("woff");
+font-weight:normal;font-style:normal;
+}
+
+
+@font-face{ font-family:"Avenir Next Rounded Pro Regular";
+src:url("../libs/fonts/AvenirNextRoundedPro-Reg.eot");
+src:url("../libs/fonts/AvenirNextRoundedPro-Reg.eot?#iefix") format("embedded-opentype"),url("../libs/fonts/AvenirNextRoundedPro-Reg.woff2") format("woff2"),url("../libs/fonts/AvenirNextRoundedPro-Reg.woff") format("woff");
+font-weight:normal;font-style:normal;
+}
+
+
+@font-face{ font-family:"Avenir Next Rounded Pro Medium";
+src:url("../libs/fonts/AvenirNextRoundedPro-Med.eot");
+src:url("../libs/fonts/AvenirNextRoundedPro-Med.eot?#iefix") format("embedded-opentype"),url("../libs/fonts/AvenirNextRoundedPro-Med.woff2") format("woff2"),url("../libs/fonts/AvenirNextRoundedPro-Med.woff") format("woff");
+font-weight:normal;font-style:normal;
+}
+
+
+@font-face{ font-family:"Nexa Bold";
+src:url("../libs/fonts/Nexa Bold.otf");
+src:url("../libs/fonts/Nexa Bold.eot") format("embedded-opentype"),url("../libs/fonts/Nexa Bold.eot") format("woff2"),url("../libs/fonts/Nexa Bold.woff") format("woff");
+font-weight:normal;font-style:normal;
+}
+
+
+@font-face{ font-family:"Nexa Light";
+src:url("../libs/fonts/Nexa Light.otf");
+src:url("../libs/fonts/Nexa Light.eot") format("embedded-opentype"),url("../libs/fonts/Nexa Light.eot") format("woff2"),url("../libs/fonts/Nexa Light.woff") format("woff");
+font-weight:normal;font-style:normal;
+}
